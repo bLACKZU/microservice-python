@@ -1,0 +1,6 @@
+services:
+  webapp:
+    image: webapp:2.0
+    build: .
+    ports:
+      - 5000:5000
